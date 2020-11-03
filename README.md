@@ -26,18 +26,18 @@
 
 <br />
 
-The complete Ethereum RPC specification as a JSON object export.
+The complete PlatON RPC specification as a JSON object export.
 
 ## Install
 
 ```
-npm install --save ethjs-schema
+npm install --save @alayanetwork/ethjs-schema
 ```
 
 ## Usage
 
 ```js
-const schema = require('ethjs-schema');
+const schema = require('@alayanetwork/ethjs-schema');
 
 console.log(schema.tags);
 
@@ -46,7 +46,7 @@ console.log(schema.tags);
 
 ## About
 
-This is a pure JSON export of the Ethereum RPC specification. This can be, and is being used to generate the `ethjs-query` object. This object specification is not standardized, it is the leanest data structure implementation I could come up with for the Ethereum RPC spec.
+This is a pure JSON export of the PlatON RPC specification. This can be, and is being used to generate the `ethjs-query` object. This object specification is not standardized, it is the leanest data structure implementation I could come up with for the Ethereum RPC spec.
 
 The entire spec is contained in the [schema.json](src/schema.json) file.
 
@@ -139,7 +139,7 @@ Please help better the ecosystem by submitting issues and pull requests to defau
 
 ## Guides
 
-Please see the Ethereum RPC specification hosted on their github:
+Please see the PlatON RPC specification hosted on their github:
 
 https://github.com/ethereum/wiki/wiki/JSON-RPC
 
